@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+#app {
+  grid-template-rows: max-content 1fr max-content;
+}
+
+.astronauta {
+  width: 36.2rem;
+  margin: auto;
+}
+
+#app .main h1 {
+  color: #B52184;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  width: 30.5rem;
+  margin: auto;
+  
+}
+
+#app .main h2 {
+  color: #312D64;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 2.0rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 3.5rem;
+}
+
+
+
+.setaImg {
+  width: 5.9rem;
+  height: 10.5rem;
+  margin: 0 auto 9.3rem;
+}
+
+.cards {
+  
+  margin: auto;
+  padding-top: 5.3rem;
+  padding-bottom: 5.6rem;
+  
+  background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 35.2rem;
+  
+  padding: 2.65rem 2.65rem 2.65rem 2.65rem;
+  margin: 0 auto 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+
+  border-radius: 19.865px;
+  background: #FFF;
+  
+  box-shadow: 0px 3.311px 13.243px 0px rgba(0, 0, 0, 0.25);;
+}
+
+.card1 h1,
+.card2 h1,
+.card3 h1 {
+  margin-top: 3.3rem;
+  margin-bottom: 2rem;
+
+  color: #B52184;
+  font-family: "Mulish", sans-serif;
+  font-size: 2.9rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  width: 23.1rem;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+  color: #312D64;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 26.5rem;
+}
+
+.contact {
+  width: 1fr;
+  align-items: center;
+}
+
+.contact h1 {
+  color: #B52184;
+  font-family: "Mulish", sans-serif;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 7.8rem;
+  padding-left: 4rem;
+  margin-bottom: 4.3rem;
+}
+
+.input-wrapper input{
+  display: flex;
+  width: 348px;
+  padding: 12px 16px 12px 14px;
+  align-items: center;
+  margin-bottom: 2.4rem;
+  margin-left: 4rem;
+
+  border-radius: 16px;
+  border: 1.5px solid #312D64;
+}
+
+.input-wrapper ::placeholder {
+  color: #312D64;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.input-wrapper textarea {
+  color: #312D64;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+
+  display: flex;
+  width: 34.8rem;
+  padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+  align-items: flex-start;
+
+  border-radius: 16px;
+  border: 1.5px solid #312D64;
+
+  margin-left: 4rem;
+}
+
+button {
+  display: inline-flex;
+  height: 45px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  margin-top: 2.4rem;
+  margin-left: 4rem;
+
+  border-radius: 16px;
+  background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
+  color: var(--Neutral-Colors-White, #FFF);
+  font-family: "Mulish", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem; /* 171.429% */
+  text-transform: capitalize;
+}
+
+footer {
+  display: flex;
+  width: 1fr;
+  height: 78px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+  margin-top: 6.5rem;
+
+  color: #FFF;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 19.381px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .cards {
+    display: flex;
+  }
+
+
+}
+
